@@ -1,6 +1,6 @@
 def happiness_number(x):
     l = len(x)
-    n = 0    
+    n = 5   
     for s in range(0,l-1,1):
         if (x[s] == ":" and x[s+1] == ")"):
             n = n + 1
